@@ -20,6 +20,9 @@ Jupyter Notebook allows us to interactively explore the data, write and execute 
     - Matplotlib: We utilize Matplotlib, a popular plotting library in Python, to visualize the data. For example, we can create bar charts or line plots to illustrate sales trends over time or compare performance across regions.
     - Sorting: Sorting the data allows us to identify top-performing regions, retailers, or products easily. We use sorting functions such as .sort_values() to arrange the data in ascending or descending order based on specified columns.
 
+4. Resampling Time Series Data:
+    - resample: The resample() function is applied to time series data to change the frequency of the time index. In our project, we use resample() to aggregate daily sales data into weekly or monthly bins, allowing us to analyze sales trends over longer periods efficiently. This helps in identifying weekly or monthly patterns in sales of women's athletic footwear, for example, and understanding seasonal variations in demand.
+
 # Summary
 
 In summary, this project provides valuable insights into athletic sales data, including regional sales performance, retailer profitability, and product trends. By combining, cleaning, and analyzing the data using Python within Jupyter Notebook, we can make informed business decisions and identify areas for improvement.
